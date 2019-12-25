@@ -3,7 +3,7 @@
 int main()
 {
 	Generate3DModel generate3DModel = Generate3DModel();
-	cv::Mat srcImage = cv::imread("CleanedImage.bmp", cv::IMREAD_COLOR);
+	cv::Mat srcImage = cv::imread("image.bmp", cv::IMREAD_COLOR);
 
 	if (srcImage.empty())
 	{

@@ -22,8 +22,8 @@ and triangulation algorithms.
 7. Last but not the least, add the source files to the project...And the project is ready to run!
 </pre>
 
-![Contour Map](https://github.com/purvakulkarni15/Ray-Tracing-On-GPU/blob/master/Ray%20Tracing.png)
+![Contour Map](https://github.com/purvakulkarni15/3D-Terrain-Builder/blob/master/Edge.BMP)
 
-![3D Reconstruction](https://github.com/purvakulkarni15/Ray-Tracing-On-GPU/blob/master/Ray%20Tracing.png)
+![3D Reconstruction](https://github.com/purvakulkarni15/3D-Terrain-Builder/blob/master/TerrainBuilder.PNG)
 
-![3D Reconstruction - Mesh](https://github.com/purvakulkarni15/Ray-Tracing-On-GPU/blob/master/Ray%20Tracing.png)
+![3D Reconstruction - Mesh](https://github.com/purvakulkarni15/3D-Terrain-Builder/blob/master/TerrainBuilderMesh.PNG)

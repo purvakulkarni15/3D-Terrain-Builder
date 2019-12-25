@@ -22,7 +22,7 @@ and triangulation algorithms.
 7. Last but not the least, add the source files to the project...And the project is ready to run!
 </pre>
 
-![Contour Map](https://github.com/purvakulkarni15/3D-Terrain-Builder/blob/master/ContourMap.BMP)
+![Contour Map](https://github.com/purvakulkarni15/3D-Terrain-Builder/blob/master/ContourMap.bmp)
 
 ![3D Reconstruction](https://github.com/purvakulkarni15/3D-Terrain-Builder/blob/master/TerrainBuilder.PNG)
 

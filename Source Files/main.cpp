@@ -3,7 +3,7 @@
 int main()
 {
 	Generate3DModel generate3DModel = Generate3DModel();
-	cv::Mat srcImage = cv::imread("image.bmp", cv::IMREAD_COLOR);
+	cv::Mat srcImage = cv::imread("ContourMap.bmp", cv::IMREAD_COLOR);
 
 	if (srcImage.empty())
 	{
@@ -16,7 +16,10 @@ int main()
 		generate3DModel.image.getFilteredImage();
 		generate3DModel.image.getContours();
 		generate3DModel.image.getPoints();
+		generate3DModel.image.getHierarchy(generate3DModel.image.contourSet);
 	}
+
+
 
 	generate3DModel.populateData();
 	generate3DModel.enhanceGrid();

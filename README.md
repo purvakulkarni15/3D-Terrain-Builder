@@ -24,6 +24,6 @@ and triangulation algorithms.
 
 ![Contour Map](https://github.com/purvakulkarni15/3D-Terrain-Builder/blob/master/ContourMap.bmp)
 
-![3D Reconstruction](https://github.com/purvakulkarni15/3D-Terrain-Builder/blob/master/TerrainBuilder.PNG)
+![3D Reconstruction](https://github.com/purvakulkarni15/3D-Terrain-Builder/blob/master/Terrain.PNG)
 
-![3D Reconstruction - Mesh](https://github.com/purvakulkarni15/3D-Terrain-Builder/blob/master/TerrainBuilderMesh.PNG)
+![3D Reconstruction - Mesh](https://github.com/purvakulkarni15/3D-Terrain-Builder/blob/master/TerrainMesh.PNG)

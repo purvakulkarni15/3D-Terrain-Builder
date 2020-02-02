@@ -102,7 +102,7 @@ void Generate3DModel::enhanceGrid()
 
 				cv::Point2f pt = cv::Point2f(x, y);
 
-				if (cv::pointPolygonTest(image.contours[p1.contour], pt, true) < -5.0)
+				if (cv::pointPolygonTest(image.contourSet[p1.contour].contour, pt, true) < -5.0)
 				{
 					mat[y * size.width + x].point.x = x;
 					mat[y * size.width + x].point.y = y;
@@ -115,7 +115,7 @@ void Generate3DModel::enhanceGrid()
 					index++;
 
 				}
-				else if (cv::pointPolygonTest(image.contours[p1.contour], pt, true) > 5.0)
+				/*else if (cv::pointPolygonTest(image.contourSet[p1.contour].contour, pt, true) > 5.0)
 				{
 					mat[y * size.width + x].point.x = x;
 					mat[y * size.width + x].point.y = y;
@@ -127,7 +127,7 @@ void Generate3DModel::enhanceGrid()
 
 					index++;
 
-				}
+				}*/
 
 			}
 		}
@@ -146,7 +146,6 @@ void Generate3DModel::createOBJFile()
 	for (int i = 0; i < image.points.size(); i++)
 	{
 		float z = (float)image.points[i].hierarchy * 10.0;
-		//float z = 0;
 		fprintf(fp, "v %f %f %f\n", image.points[i].point.x, image.points[i].point.y, z);
 	}
 

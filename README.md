@@ -22,8 +22,14 @@ and triangulation algorithms.
 7. Last but not the least, add the source files to the project...And the project is ready to run!
 </pre>
 
-![Contour Map](https://github.com/purvakulkarni15/3D-Terrain-Builder/blob/master/EDGE.bmp)
+![Contour Map](https://github.com/purvakulkarni15/3D-Terrain-Builder/blob/master/ContourMap3D_1.bmp)
 
-![3D Reconstruction](https://github.com/purvakulkarni15/3D-Terrain-Builder/blob/master/ContourMap3D.PNG)
+![3D Reconstruction](https://github.com/purvakulkarni15/3D-Terrain-Builder/blob/master/ContourMap3D_1.PNG)
 
-![3D Reconstruction - Mesh](https://github.com/purvakulkarni15/3D-Terrain-Builder/blob/master/ContourMap3D_Mesh.PNG)
+![3D Reconstruction - Mesh](https://github.com/purvakulkarni15/3D-Terrain-Builder/blob/master/ContourMap3D_1_Mesh.PNG)
+
+![Contour Map](https://github.com/purvakulkarni15/3D-Terrain-Builder/blob/master/ContourMap3D_2.bmp)
+
+![3D Reconstruction](https://github.com/purvakulkarni15/3D-Terrain-Builder/blob/master/ContourMap3D_2.PNG)
+
+![3D Reconstruction - Mesh](https://github.com/purvakulkarni15/3D-Terrain-Builder/blob/master/ContourMap3D_2_Mesh.PNG)

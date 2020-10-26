@@ -3,6 +3,18 @@
 This project generates 3D model out of the topographical contour maps by employing image processing 
 and triangulation algorithms.
 
+### Methodology
+
+<pre>
+1. Command line interface is used to obtain the path of the contour map from the user.
+2. findContours() API from OpenCV library is utilized to get the contours data from the map.
+3. The heirarchy information about the contours provided by OpenCV is inadequate for contours touching the image boundary.
+4. Hence, an algorithm is developed from scratch to establish heirarchy for the given set of contours.
+5. Constrained Delaunay Triangulation is employed on the contour data points.
+6. Elevation of data points is determined by contour heirarchy.
+7. The 3D model is retained in .OBJ format.
+</pre>
+
 ### Libraries
 <pre>
 1. OpenCV - For Image Generation

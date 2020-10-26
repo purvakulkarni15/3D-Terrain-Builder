@@ -23,9 +23,9 @@ and triangulation algorithms.
 </pre>
 
 ### Results
-<img src="https://github.com/purvakulkarni15/3D-Terrain-Builder/blob/master/ContourMap3D_1.bmp" width="50%" height="500"><img src="https://github.com/purvakulkarni15/3D-Terrain-Builder/blob/master/ContourMap3D_1.PNG" width="50%" height="500">
+![Contour Map]<img src="https://github.com/purvakulkarni15/3D-Terrain-Builder/blob/master/ContourMap3D_1.bmp" width="50%" height="450">![3D Reconstruction]<img src="https://github.com/purvakulkarni15/3D-Terrain-Builder/blob/master/ContourMap3D_1.PNG" width="50%" height="450">
 ![Contour Map](https://github.com/purvakulkarni15/3D-Terrain-Builder/blob/master/ContourMap3D_2.bmp)
 
-![3D Reconstruction](https://github.com/purvakulkarni15/3D-Terrain-Builder/blob/master/ContourMap3D_2.PNG)
+(https://github.com/purvakulkarni15/3D-Terrain-Builder/blob/master/ContourMap3D_2.PNG)
 
 ![3D Reconstruction - Mesh](https://github.com/purvakulkarni15/3D-Terrain-Builder/blob/master/ContourMap3D_2_Mesh.PNG)
